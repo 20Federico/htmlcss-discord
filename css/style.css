@@ -61,8 +61,12 @@ h3{
     font-size: 25px;
 }
 
-main > div{
+main > div:nth-of-type(odd){
     padding: 100px 0;
+}
+
+main > div:nth-of-type(even){
+    padding-top: 100px;
 }
 
 footer{
@@ -89,6 +93,11 @@ footer ul a{
 
 footer ul li:first-of-type{
     color: #7289DA;
+}
+
+svg{
+    position: relative;
+    top: 10px;
 }
 
 /**************** id *****************/
@@ -208,8 +217,13 @@ footer ul li:first-of-type{
     text-align: right;
 }
 
+.grey_row{
+    padding-bottom: 100px;
+}
+
 .centered_row{
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .download_link_2{
