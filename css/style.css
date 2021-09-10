@@ -23,7 +23,7 @@ header section{
     margin-top: 100px;
 }
 
-header section a{
+section a{
     padding: 14px 25px;
     border-radius: 50px;
     font-weight: 500;
@@ -54,7 +54,28 @@ h1{
     font-size: 40px;
 }
 
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+main > div{
+    padding: 100px 0;
+}
+
 /**************** id *****************/
+
+#video-call_img{
+    width: 100%;
+}
+
+#stars_img{
+    position: relative;
+    top: 20px;
+}
 
 /**************** classi *****************/
 
@@ -123,3 +144,44 @@ h1{
 .fa-long-arrow-alt-down{
     margin-right: 5px;
 }
+
+/* main */
+
+.img_container img{
+    width: 90%;
+}
+
+.text_area{
+    padding-top: 25px;
+}
+
+.text_area p, .centered_row p{
+    padding-top: 20px;
+    color: #2B2F32;
+    font-weight: 500;
+}
+
+.row_container:nth-of-type(even){
+    background-color: #F6F6F6;
+}
+
+.row_container:nth-of-type(even) .img_container, .text_area{
+    float: right;
+}
+
+.row_container:nth-of-type(even) .img_container{
+    text-align: right;
+}
+
+.centered_row{
+    text-align: center;
+}
+
+.download_link_2{
+    background-color: #8EA1E1;
+    color: white;
+    margin-top: 25px;
+}
+
+
+
