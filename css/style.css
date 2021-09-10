@@ -19,8 +19,7 @@ header{
 header section{
     margin: auto;
     text-align: center;
-    padding: 50px 10px;
-    margin-top: 100px;
+    transform: translateY(75%)
 }
 
 section a{
@@ -29,17 +28,17 @@ section a{
     font-weight: 500;
 }
 
-ul{
+nav ul{
     list-style: none;
     width: fit-content;
     margin: auto;
 }
 
-ul li{
+nav ul li{
     display: inline-block;
 }
 
-ul li a{
+nav ul li a{
     font-size: 14px;
     padding: 3px 10px;
     color: white;
@@ -66,6 +65,32 @@ main > div{
     padding: 100px 0;
 }
 
+footer{
+    padding: 65px 0;
+    background-color: #23272A;
+    color: white;
+}
+
+footer h3{
+    color: #7289DA;
+}
+
+footer ul{
+    list-style: none;
+    float: left;
+    width: 25%;
+}
+
+footer ul a{
+    color: white;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+footer ul li:first-of-type{
+    color: #7289DA;
+}
+
 /**************** id *****************/
 
 #video-call_img{
@@ -75,6 +100,14 @@ main > div{
 #stars_img{
     position: relative;
     top: 20px;
+}
+
+#italian_flag{
+    width: 20px;
+}
+
+#footer_logo{
+    height: 30px;
 }
 
 /**************** classi *****************/
@@ -110,16 +143,18 @@ main > div{
 
 /* navbar */
 
-.sign_in{
+.sign_in, .register{
     display: inline-block;
-    text-align: right;
     float: right;
     text-decoration: none;
-    color: black;
-    background-color: white;
     border-radius: 50px;
     padding: 9px 15px;
     font-size: 12px;
+}
+
+.sign_in{
+    color: black;
+    background-color: white;
 }
 
 /* hero section */
@@ -183,5 +218,31 @@ main > div{
     margin-top: 25px;
 }
 
+/* footer */
+
+.lang{
+    font-size: 12px;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.social_icons{
+    word-spacing: 15px;
+}
+
+.link_list{
+    padding-bottom: 20px;
+}
+
+.footer_foot{
+    padding-top: 20px;
+    border-top: 1px solid #48557D;
+}
+
+.register{
+    color: white;
+    background-color: #8EA1E1;;
+}
 
 
